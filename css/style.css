@@ -14,7 +14,7 @@ h1 {
 
 }
 
-.main-img {
+/* .main-img {
     background-image: url("../img/Final-FMS-Internacional-en-Bogota-1.png");
     background-position: center;
     background-size: cover;
@@ -22,15 +22,14 @@ h1 {
     background-position: center;
     width: 100%;
     height: 250px;
-}
+} */
 
 .panelMenu {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
     /* border: 1px solid #e7e7e7; */
-    background-color: #576066;
+    background-color: #2F4858;
 }
 
 .panelMenu li {
@@ -43,7 +42,7 @@ h1 {
 
 .panelMenu li a.active {
     color: white;
-    background-color: #2C514C;
+    background-color: #F6AE2D;
 }
 
 .panelMenu li a {
@@ -55,18 +54,18 @@ h1 {
 }
 
 .panelMenu li a:hover:not(.active) {
-    background-color: #122932;
+    background-color: #33658A;
     color: white;
 }
 
 .panel-principal {
-    padding: 33px 75px 30px 70px;
-    position: relative;
+    /* padding: 33px 75px 30px 70px;
+    position: relative; */
     border: 1px solid black;
     border-radius: 10px;
     background-color: lightgray;
-    margin-left: 70px;
-    margin-right: 70px;
+    /* margin-left: 70px;
+    margin-right: 70px; */
     box-shadow: 10px 10px 50px 10px grey;
 }
 
@@ -77,6 +76,8 @@ p {
 
 main {
     background-color: #0C1B33;
+    padding-block-start: 6rem;
+    padding-block-end: 6rem;
 }
 
 .copyright-text {
@@ -95,8 +96,8 @@ main {
 }
 
 .ligas h1 {
-    margin: 4px;
-    font-size: 90%;
+    margin: 1rem;
+    font-size: 1.5rem;
 }
 
 .ligas>h2,
@@ -110,7 +111,7 @@ p {
 }
 
 .panel-img-eventos img {
-    max-width: 15%;
+    max-width: 30%;
 }
 
 
@@ -171,4 +172,72 @@ textarea {
 .nav-img-logo {
     font-size: 25px;
     font-family: 'Salsa', cursive, 'Roboto', sans-serif;
+}
+
+.slider-centrado{
+    height: 50%;
+    margin: auto;
+}
+
+.color-title{
+    color: white;
+    font-size: 3rem;
+    animation-name: heartBeat;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3)
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
 }
