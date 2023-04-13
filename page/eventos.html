@@ -15,15 +15,14 @@
 
 <body>
     <header>
-        <div class="main-img">
-
-        </div>
         <!-- logo + barra de navegacion  -->
         <nav class="navbar navbar-expand-lg panelMenu">
             <div class="container-fluid">
                 <a class="navbar-brand nav-img-logo" href="#">
-                    <span><h5 class=" color-title">Freestyle</h5></span> 
-                  </a>
+                    <span>
+                        <h5 class=" color-title">Freestyle</h5>
+                    </span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,30 +51,42 @@
 
     </header>
     <main>
-        <div class="panel-principal">
-            <h1>Eventos</h1>
-            <div class="ligas">
-                <h1>God Level</h1>
-                <div class="panel-img-eventos">
-                    <img src="../img/godlevel-logo.png" alt="">s
+        <div class="container-sm">
+            <div class="card panel-principal">
+                <div class="card-body">
+                    <h1 class="card-title">Eventos</h1>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card ligas">
+                                <div class="card-body card-center">
+                                    <h1>God Level</h1>
+                                    <img class="card-img-bottom panel-img-eventos" src="../img/godlevel-logo.png"
+                                        alt="godlevel">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card ligas">
+                                <div class="card-body card-center">
+                                    <h1>Redbull batalla</h1>
+                                    <img class="card-img-bottom panel-img-eventos" src="../img/Red_Bull_Batalla.png"
+                                        alt="Red_Bull_Batalla">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card ligas">
+                                <div class="card-body card-center">
+                                    <h1>FMS</h1>
+                                    <img class="card-img-bottom panel-img-eventos"
+                                        src="../img/Freestyle-master-series.png" alt="FMS">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-            <div class="ligas">
-                <h1>Redbull batalla</h1>
-                <div class="panel-img-eventos">
-                    <img src="../img/Red_Bull_Batalla.webp" alt="">
-                </div>
-            </div>
-            <div class="ligas">
-                <h1>FMS</h1>
-                <div class="panel-img-eventos">
-                    <img src="../img/Freestyle-master-series.webp" alt="">
-                </div>
-
             </div>
         </div>
-
     </main>
 
     <footer>

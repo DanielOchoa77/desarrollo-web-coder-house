@@ -92,7 +92,6 @@ main {
     background: lightgray;
     border-radius: 20px;
     border-style: outset;
-
 }
 
 .ligas h1 {
@@ -108,10 +107,7 @@ p {
 
 .panel-img-eventos {
     text-align: center;
-}
-
-.panel-img-eventos img {
-    max-width: 30%;
+    max-width: 15rem;
 }
 
 
@@ -174,18 +170,27 @@ textarea {
     font-family: 'Salsa', cursive, 'Roboto', sans-serif;
 }
 
-.slider-centrado{
+.slider-centrado {
     height: 50%;
     margin: auto;
 }
 
-.color-title{
+.color-title {
     color: white;
     font-size: 3rem;
     animation-name: heartBeat;
     -webkit-animation-iteration-count: 2;
     animation-iteration-count: 2;
     animation-duration: 3s;
+}
+
+.card-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 @-webkit-keyframes heartBeat {
