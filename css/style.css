@@ -118,23 +118,18 @@ label {
 }
 
 .formulario-contacto {
-    display: block;
+    display: grid;
     margin: 0 auto;
-    width: 510px;
     color: black;
     font-family: 'Sriracha', cursive, 'Roboto', sans-serif;
     font-size: 20px;
+    justify-items: center;
 }
 
-form {
-    margin: 0 auto;
-    width: 400px;
-}
 
 input,
 textarea {
     width: 400px;
-    height: 35px;
     background: white;
     border-radius: 10px;
     border: none;
@@ -245,4 +240,52 @@ textarea {
         -webkit-transform: scale(1);
         transform: scale(1)
     }
+}
+
+@media only screen and (max-width: 480px)  {
+    input,
+textarea {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Sriracha', cursive, 'Roboto', sans-serif;
+}
+
+}
+
+@media only screen and (max-width: 380px)  {
+    input,
+textarea {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Sriracha', cursive, 'Roboto', sans-serif;
+}
+
+}
+
+@media only screen and (max-width: 345px)  {
+    input,
+textarea {
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Sriracha', cursive, 'Roboto', sans-serif;
+}
+
 }
