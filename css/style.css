@@ -173,6 +173,10 @@ textarea {
     flex-direction: column;
 }
 
+.carousel-item img{
+    height: 45rem;
+}
+
 @-webkit-keyframes heartBeat {
     0% {
         -webkit-transform: scale(1);
@@ -226,6 +230,37 @@ textarea {
         transform: scale(1)
     }
 }
+
+@media only screen and (max-width: 1000px)  {
+    .carousel-item img{
+        height: 35rem;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+    .carousel-item img{
+        height: 30rem;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+    .carousel-item img{
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+    .carousel-item img{
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 400px)  {
+    .carousel-item img{
+        height: 15rem;
+    }
+}
+
 
 @media only screen and (max-width: 480px)  {
     input,
@@ -298,6 +333,10 @@ textarea {
     font-size: 20px;
     margin-bottom: 45px;
     color: white;
+}
+
+.carousel-item img{
+    height: 10rem;
 }
 
 }
