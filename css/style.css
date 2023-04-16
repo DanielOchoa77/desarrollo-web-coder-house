@@ -177,6 +177,10 @@ textarea {
     height: 45rem;
 }
 
+.navbar-toggler{
+    background-color: #F6AE2D;
+}
+
 @-webkit-keyframes heartBeat {
     0% {
         -webkit-transform: scale(1);
