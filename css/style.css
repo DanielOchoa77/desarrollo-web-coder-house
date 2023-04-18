@@ -6,7 +6,7 @@
 
 h1 {
   color: black;
-  font-family: 'Rock Salt', cursive, 'Roboto', sans-serif;
+  font-family: "Rock Salt", cursive, "Roboto", sans-serif;
   text-align: center;
   text-decoration: dashed; }
 
@@ -14,30 +14,26 @@ h1 {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  /* border: 1px solid #e7e7e7; */
   background-color: #2F4858; }
 
 .panelMenu li {
   display: inline-block;
   cursor: pointer;
   font-size: 18px;
-  font-family: 'Salsa', cursive, 'Roboto', sans-serif;
+  font-family: "Salsa", cursive, "Roboto", sans-serif;
   text-transform: uppercase; }
-
-.panelMenu li a.active {
-  color: white;
-  background-color: #F6AE2D; }
-
-.panelMenu li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; }
-
-.panelMenu li a:hover:not(.active) {
-  background-color: #33658A;
-  color: white; }
+  .panelMenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  .panelMenu li a.active {
+    color: white;
+    background-color: #F6AE2D; }
+  .panelMenu li a:hover:not(.active) {
+    background-color: #33658A;
+    color: white; }
 
 .panel-principal {
   border: 1px solid black;
@@ -46,7 +42,7 @@ h1 {
   box-shadow: 10px 10px 50px 10px grey; }
 
 p {
-  font-family: 'Sriracha', cursive, 'Roboto', sans-serif;
+  font-family: "Sriracha", cursive, "Roboto", sans-serif;
   font-size: 20px; }
 
 main {
@@ -56,7 +52,7 @@ main {
 
 .copyright-text {
   text-align: center;
-  margin: 20px 20px 20px 20px; }
+  margin: 20px; }
 
 .ligas {
   margin: 10px;
@@ -64,10 +60,9 @@ main {
   background: lightgray;
   border-radius: 20px;
   border-style: outset; }
-
-.ligas h1 {
-  margin: 1rem;
-  font-size: 1.5rem; }
+  .ligas h1 {
+    margin: 1rem;
+    font-size: 1.5rem; }
 
 .ligas > h2,
 p {
@@ -87,7 +82,7 @@ label {
   display: grid;
   margin: 0 auto;
   color: black;
-  font-family: 'Sriracha', cursive, 'Roboto', sans-serif;
+  font-family: "Sriracha", cursive, "Roboto", sans-serif;
   font-size: 20px;
   justify-items: center; }
 
@@ -101,7 +96,7 @@ textarea {
   margin-top: 5px;
   font-size: 15px;
   color: black;
-  font-family: 'Sriracha', cursive, 'Roboto', sans-serif; }
+  font-family: "Sriracha", cursive, "Roboto", sans-serif; }
 
 textarea {
   height: 150px; }
@@ -121,7 +116,7 @@ textarea {
 
 .nav-img-logo {
   font-size: 25px;
-  font-family: 'Salsa', cursive, 'Roboto', sans-serif; }
+  font-family: "Salsa", cursive, "Roboto", sans-serif; }
 
 .slider-centrado {
   height: 50%;
@@ -214,7 +209,7 @@ textarea {
     margin-top: 5px;
     font-size: 15px;
     color: black;
-    font-family: 'Sriracha', cursive, 'Roboto', sans-serif; } }
+    font-family: "Sriracha", cursive, "Roboto", sans-serif; } }
 
 @media only screen and (max-width: 380px) {
   input,
@@ -227,7 +222,7 @@ textarea {
     margin-top: 5px;
     font-size: 15px;
     color: black;
-    font-family: 'Sriracha', cursive, 'Roboto', sans-serif; } }
+    font-family: "Sriracha", cursive, "Roboto", sans-serif; } }
 
 @media only screen and (max-width: 345px) {
   input,
@@ -240,7 +235,7 @@ textarea {
     margin-top: 5px;
     font-size: 15px;
     color: black;
-    font-family: 'Sriracha', cursive, 'Roboto', sans-serif; } }
+    font-family: "Sriracha", cursive, "Roboto", sans-serif; } }
 
 @media only screen and (max-width: 300px) {
   input,
@@ -253,7 +248,7 @@ textarea {
     margin-top: 5px;
     font-size: 15px;
     color: black;
-    font-family: 'Sriracha', cursive, 'Roboto', sans-serif; }
+    font-family: "Sriracha", cursive, "Roboto", sans-serif; }
   .buttonSend {
     width: 120px;
     margin-top: 20px;
