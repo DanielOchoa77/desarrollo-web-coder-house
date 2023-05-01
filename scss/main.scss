@@ -20,7 +20,7 @@ h1 {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color:$menu_color;
+    background-color: $menu_color;
 }
 
 .panelMenu li {
@@ -42,8 +42,9 @@ h1 {
         color: $white;
         background-color: $menu_active_color;
     }
+
     a:hover:not(.active) {
-        background-color:$menu_hover_color;
+        background-color: $menu_hover_color;
         color: $white;
     }
 }
@@ -80,6 +81,7 @@ main {
     background: $lightgray;
     border-radius: 20px;
     border-style: outset;
+
     h1 {
         margin: 1rem;
         font-size: 1.5rem;
@@ -346,5 +348,22 @@ textarea {
 
     .carousel-item img {
         height: 10rem;
+    }
+}
+
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 30rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    iframe {
+        top: 10%;
+        height: 100%;
+        width: 80%;
+        position: absolute;
     }
 }

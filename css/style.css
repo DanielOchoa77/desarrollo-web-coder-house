@@ -260,3 +260,16 @@ textarea {
     color: white; }
   .carousel-item img {
     height: 10rem; } }
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 30rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .video-responsive iframe {
+    top: 10%;
+    height: 100%;
+    width: 80%;
+    position: absolute; }
