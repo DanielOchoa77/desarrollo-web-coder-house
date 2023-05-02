@@ -1,0 +1,5 @@
+@mixin color-boton-ver($fondo, $color){
+    background-color: $fondo;
+    color: $color;
+    font-weight: bold;
+}

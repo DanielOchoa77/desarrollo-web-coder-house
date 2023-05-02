@@ -1,0 +1,341 @@
+h1 {
+    color: $black;
+    font-family: $rock_salt;
+    text-align: center;
+    text-decoration: dashed;
+
+}
+
+p {
+    font-family: $sriracha;
+    font-size: 20px;
+}
+
+main {
+    background-color: $main_color;
+    padding-block-start: 0rem;
+    padding-block-end: 6rem;
+}
+
+.copyright-text {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.ligas {
+    margin: 10px;
+    padding: 5px;
+    background: $lightgray;
+    border-radius: 20px;
+    border-style: outset;
+
+    h1 {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+.ligas>h2,
+p {
+    margin: 4px;
+    font-size: 90%;
+}
+
+.panel-img-eventos {
+    justify-content: center;
+    max-width: 15rem;
+}
+
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.formulario-contacto {
+    display: grid;
+    margin: 0 auto;
+    color: $black;
+    font-family: $sriracha;
+    font-size: 20px;
+    justify-items: center;
+}
+
+
+input,
+textarea {
+    width: 400px;
+    background: $white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: $black;
+    font-family: $sriracha;
+}
+
+textarea {
+    height: 150px;
+}
+
+.buttonSend {
+    width: 220px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: $button_color_contact;
+    font-size: 20px;
+    margin-bottom: 45px;
+    color: $white;
+}
+
+.button-send-contacto {
+    text-align: center;
+}
+
+
+.slider-centrado {
+    height: 50%;
+    margin: auto;
+}
+
+.color-title {
+    color: $white;
+    font-size: 3rem;
+    animation-name: heartBeat;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+    animation-duration: 3s;
+}
+
+.card-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.carousel-item img {
+    height: 45rem;
+}
+.carousel{
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel-item img {
+        height: 35rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-item img {
+        height: 30rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-item img {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-item img {
+        height: 15rem;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    input,
+    textarea {
+        width: 300px;
+        background: $white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 15px;
+        color: $black;
+        font-family: $sriracha;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    input,
+    textarea {
+        width: 250px;
+        background: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 15px;
+        color: $black;
+        font-family: $sriracha;
+    }
+
+}
+
+@media only screen and (max-width: 345px) {
+
+    input,
+    textarea {
+        width: 200px;
+        background: $white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 15px;
+        color: $black;
+        font-family: $sriracha;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    input,
+    textarea {
+        width: 150px;
+        background: $white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 15px;
+        color: $black;
+        font-family: $sriracha;
+    }
+
+    .buttonSend {
+        width: 120px;
+        margin-top: 20px;
+        cursor: pointer;
+        text-align: center;
+        background-color: $button_color_contact;
+        font-size: 20px;
+        margin-bottom: 45px;
+        color: $white;
+    }
+
+    .carousel-item img {
+        height: 10rem;
+    }
+}
+
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 30rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    iframe {
+        top: 10%;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+}
+
+
+.listFreestyler {
+    ul {
+        list-style: none;
+        padding-left: 0;
+        text-align: center;
+
+        li {
+            font-family: $sriracha;
+            font-size: 20px;
+            margin-bottom: 0.1rem;
+
+            a {
+                display: block;
+                background-color: $menu_color;
+                border-left: 5px solid $navbar-toggler-color;
+                border-right: 5px solid $navbar-toggler-color;
+                text-decoration: none;
+                color: $white;
+
+                &:hover {
+                    -moz-transform: rotate(-5deg);
+                    -moz-box-shadow: 10px 10px 20px #000000;
+                    -webkit-transform: rotate(-5deg);
+                    -webkit-box-shadow: 10px 10px 20px #000000;
+                    transform: rotate(4deg);
+                    box-shadow: 10px 10px 20px #000000;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+.modal-body {
+    background: $lightgray;
+}
+
+.modal-header,
+.modal-footer {
+    background: $menu_color;
+    color: $white;
+}
+
+.btn-close-color {
+    background-color: $menu_active_color;
+    color: $black;
+}
+
+.btn-show{
+    background-color: $menu_active_color;
+}
+.panel-show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color_colombia{
+    @include color-boton-ver($button_color_colombia, $white)
+}
+
+.color_espania{
+    @include color-boton-ver($button_color_espania, $white)
+}
+
+.color_argentina{
+    @include color-boton-ver($button_color_argentina, $white)
+}
+
+.color_mexico{
+    @include color-boton-ver($button_color_mexico, $white)
+}
+
+.color_chile{
+    @include color-boton-ver($button_color_chile, $white)
+}
+
+.color_peru{
+    @include color-boton-ver($button_color_peru, $white)
+}

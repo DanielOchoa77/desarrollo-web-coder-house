@@ -4,12 +4,6 @@
   margin: 0;
   padding: 0; }
 
-h1 {
-  color: black;
-  font-family: "Rock Salt", cursive, "Roboto", sans-serif;
-  text-align: center;
-  text-decoration: dashed; }
-
 .panelMenu {
   list-style-type: none;
   margin: 0;
@@ -41,13 +35,60 @@ h1 {
   background-color: lightgray;
   box-shadow: 10px 10px 50px 10px grey; }
 
+.navbar-toggler {
+  background-color: #F6AE2D; }
+
+@-webkit-keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.nav-img-logo {
+  font-size: 25px;
+  font-family: "Salsa", cursive, "Roboto", sans-serif; }
+
+h1 {
+  color: black;
+  font-family: "Rock Salt", cursive, "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: dashed; }
+
 p {
   font-family: "Sriracha", cursive, "Roboto", sans-serif;
   font-size: 20px; }
 
 main {
   background-color: #0C1B33;
-  padding-block-start: 6rem;
+  padding-block-start: 0rem;
   padding-block-end: 6rem; }
 
 .copyright-text {
@@ -70,7 +111,7 @@ p {
   font-size: 90%; }
 
 .panel-img-eventos {
-  text-align: center;
+  justify-content: center;
   max-width: 15rem; }
 
 label {
@@ -114,10 +155,6 @@ textarea {
 .button-send-contacto {
   text-align: center; }
 
-.nav-img-logo {
-  font-size: 25px;
-  font-family: "Salsa", cursive, "Roboto", sans-serif; }
-
 .slider-centrado {
   height: 50%;
   margin: auto; }
@@ -141,42 +178,8 @@ textarea {
 .carousel-item img {
   height: 45rem; }
 
-.navbar-toggler {
-  background-color: #F6AE2D; }
-
-@-webkit-keyframes heartBeat {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  14% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  28% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  42% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  70% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes heartBeat {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  14% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  28% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  42% {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3); }
-  70% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
+.carousel {
+  margin-bottom: 2rem; }
 
 @media only screen and (max-width: 1000px) {
   .carousel-item img {
@@ -317,3 +320,33 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+.color_colombia {
+  background-color: #0052b4;
+  color: white;
+  font-weight: bold; }
+
+.color_espania {
+  background-color: #d80027;
+  color: white;
+  font-weight: bold; }
+
+.color_argentina {
+  background-color: #338af3;
+  color: white;
+  font-weight: bold; }
+
+.color_mexico {
+  background-color: #6da544;
+  color: white;
+  font-weight: bold; }
+
+.color_chile {
+  background-color: #0052b4;
+  color: white;
+  font-weight: bold; }
+
+.color_peru {
+  background-color: #d80027;
+  color: white;
+  font-weight: bold; }
