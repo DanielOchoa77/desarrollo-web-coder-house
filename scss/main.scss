@@ -367,3 +367,62 @@ textarea {
         position: absolute;
     }
 }
+
+
+.listFreestyler {
+    ul {
+        list-style: none;
+        padding-left: 0;
+        text-align: center;
+
+        li {
+            font-family: $sriracha;
+            font-size: 20px;
+            margin-bottom: 0.1rem;
+
+            a {
+                display: block;
+                background-color: $menu_color;
+                border-left: 5px solid $navbar-toggler-color;
+                border-right: 5px solid $navbar-toggler-color;
+                text-decoration: none;
+                color: $white;
+
+                &:hover {
+                    -moz-transform: rotate(-5deg);
+                    -moz-box-shadow: 10px 10px 20px #000000;
+                    -webkit-transform: rotate(-5deg);
+                    -webkit-box-shadow: 10px 10px 20px #000000;
+                    transform: rotate(4deg);
+                    box-shadow: 10px 10px 20px #000000;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+.modal-body {
+    background: $lightgray;
+}
+
+.modal-header,
+.modal-footer {
+    background: $menu_color;
+    color: $white;
+}
+
+.btn-close-color {
+    background-color: $menu_active_color;
+    color: $black;
+}
+
+.btn-show{
+    background-color: $menu_active_color;
+}
+.panel-show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
