@@ -82,14 +82,24 @@ h1 {
   text-align: center;
   text-decoration: dashed; }
 
+.title {
+  color: black;
+  font-family: "Rock Salt", cursive, "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: dashed;
+  margin: 1rem;
+  font-size: 1.5rem; }
+
 p {
   font-family: "Sriracha", cursive, "Roboto", sans-serif;
   font-size: 20px; }
 
 main {
   background-color: #0C1B33;
-  padding-block-start: 0rem;
   padding-block-end: 6rem; }
+
+.main-magin {
+  padding-block-start: 3rem; }
 
 .copyright-text {
   text-align: center;
@@ -181,21 +191,49 @@ textarea {
 .carousel {
   margin-bottom: 2rem; }
 
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 30rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .video-responsive iframe {
+    top: 10%;
+    height: 100%;
+    width: 80%;
+    position: absolute; }
+
 @media only screen and (max-width: 1000px) {
   .carousel-item img {
     height: 35rem; } }
 
 @media only screen and (max-width: 800px) {
   .carousel-item img {
-    height: 30rem; } }
+    height: 30rem; }
+  .video-responsive iframe {
+    top: 10%;
+    height: 80%;
+    width: 80%;
+    position: absolute; } }
 
 @media only screen and (max-width: 600px) {
   .carousel-item img {
-    height: 25rem; } }
+    height: 25rem; }
+  .video-responsive iframe {
+    top: 10%;
+    height: 60%;
+    width: 80%;
+    position: absolute; } }
 
 @media only screen and (max-width: 500px) {
   .carousel-item img {
-    height: 20rem; } }
+    height: 20rem; }
+  .video-responsive iframe {
+    top: 10%;
+    height: auto;
+    width: 100%;
+    position: absolute; } }
 
 @media only screen and (max-width: 400px) {
   .carousel-item img {
@@ -263,19 +301,6 @@ textarea {
     color: white; }
   .carousel-item img {
     height: 10rem; } }
-
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 30rem;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem; }
-  .video-responsive iframe {
-    top: 10%;
-    height: 100%;
-    width: 80%;
-    position: absolute; }
 
 .listFreestyler ul {
   list-style: none;
@@ -350,3 +375,7 @@ textarea {
   background-color: #d80027;
   color: white;
   font-weight: bold; }
+
+.size-img-footer {
+  width: 25px;
+  height: 10px; }
